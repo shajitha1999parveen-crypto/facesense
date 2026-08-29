@@ -1,7 +1,27 @@
+# import os
+
+# # Reduce TensorFlow console messages
+# os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
+
+# import streamlit as st
+# import cv2
+# import numpy as np
+# import tempfile
+# import matplotlib.pyplot as plt
+
+# from deepface import DeepFace
+
+# from sklearn.metrics import (
+#     accuracy_score,
+#     f1_score,
+#     recall_score,
+#     precision_score,
+#     classification_report
+# )
 import os
 
-# Reduce TensorFlow console messages
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
 
 import streamlit as st
 import cv2
@@ -18,7 +38,6 @@ from sklearn.metrics import (
     precision_score,
     classification_report
 )
-
 
 # ============================================================
 # PAGE CONFIGURATION
