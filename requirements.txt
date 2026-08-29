@@ -1,5 +1,5 @@
 streamlit
 deepface
 opencv-python-headless
-numpy
-tensorflow-cpu
+numpy<2
+tensorflow-cpu==2.15.1
