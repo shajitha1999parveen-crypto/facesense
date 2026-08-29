@@ -1,13 +1,32 @@
+# import streamlit as st
+# import cv2
+# import numpy as np
+# import tempfile
+# import os
+# import matplotlib.pyplot as plt
+# from deepface import DeepFace
+# from sklearn.metrics import (
+#     accuracy_score, f1_score, recall_score, precision_score, classification_report
+# )
+
+import os
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
+
 import streamlit as st
 import cv2
 import numpy as np
 import tempfile
-import os
 import matplotlib.pyplot as plt
 from deepface import DeepFace
+
 from sklearn.metrics import (
-    accuracy_score, f1_score, recall_score, precision_score, classification_report
+    accuracy_score,
+    f1_score,
+    recall_score,
+    precision_score,
+    classification_report
 )
+
 
 st.set_page_config(page_title="FaceSense: Emotion-Aware Greeting System", page_icon="🙂")
 
