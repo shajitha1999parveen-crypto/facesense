@@ -5,7 +5,7 @@
 # tensorflow-cpu
 
 streamlit
-deepface
+deepface==0.0.100
 opencv-python-headless
 numpy<2
 tensorflow-cpu==2.15.1
